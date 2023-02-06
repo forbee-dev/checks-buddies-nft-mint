@@ -12,6 +12,7 @@ import {
   Web3Button,
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
+import Link from "next/link";
 import type { NextPage } from "next";
 import Image from "next/image";
 import { useMemo, useState } from "react";
@@ -318,9 +319,9 @@ const Home: NextPage = () => {
                     )}
                   </div>{" "}
                   <p className="font-mono text-xs">
-                    <a href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
+                    <Link href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
                       Smart Contract
-                    </a>
+                    </Link>
                   </p>
                 </>
               )}
@@ -333,23 +334,23 @@ const Home: NextPage = () => {
           No Roadmap, no utility, just enjoy!
         </p>
         <div className="flex justify-center items-center ">
-          <a href="http://www.opensea.io">
+          <Link href="http://www.opensea.io">
             <Image
               src="/opensea_icon.png"
               alt="opensea_icon"
               width={48}
               height={48}
             />
-          </a>
+          </Link>
           <div className="flex justify-center items-center pl-5">
-            <a href="http://www.twitter.com">
+            <Link href="http://www.twitter.com">
               <Image
                 src="/twitter_icon.png"
                 alt="twitter_icon"
                 width={48}
                 height={48}
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
