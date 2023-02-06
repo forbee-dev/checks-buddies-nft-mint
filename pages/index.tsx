@@ -20,6 +20,8 @@ import Timer from "../components/Timer";
 import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
+import gif from "../public/checks-buddie.gif";
+
 // Put Your NFT Drop Contract address from the dashboard here
 const myNftDropContractAddress = "0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F";
 
@@ -234,7 +236,7 @@ const Home: NextPage = () => {
             <div className="">
               {/* Image Preview of NFTs */}
               <Image
-                src="/checks-buddie.gif"
+                src={gif}
                 alt=""
                 width={400}
                 height={400}
