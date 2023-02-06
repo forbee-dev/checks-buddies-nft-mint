@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-24.png"
+          href="/fav-24.png"
         ></link>
         <meta
           name="viewport"
