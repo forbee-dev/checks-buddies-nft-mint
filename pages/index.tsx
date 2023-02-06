@@ -333,7 +333,7 @@ const Home: NextPage = () => {
           No Roadmap, no utility, just enjoy!
         </p>
         <div className="flex justify-center items-center ">
-          <a href="http://">
+          <a href="http://www.opensea.io">
             <Image
               src="/opensea_icon.png"
               alt="opensea_icon"
@@ -342,7 +342,7 @@ const Home: NextPage = () => {
             />
           </a>
           <div className="flex justify-center items-center pl-5">
-            <a href="http://">
+            <a href="http://www.twitter.com">
               <Image
                 src="/twitter_icon.png"
                 alt="twitter_icon"
