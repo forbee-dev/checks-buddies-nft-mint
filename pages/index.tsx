@@ -319,9 +319,9 @@ const Home: NextPage = () => {
                     )}
                   </div>{" "}
                   <p className="font-mono text-xs">
-                    <Link href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
+                    {/*<Link href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
                       Smart Contract
-                    </Link>
+                      </Link>*/}
                   </p>
                 </>
               )}
