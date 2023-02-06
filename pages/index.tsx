@@ -332,20 +332,22 @@ const Home: NextPage = () => {
         <p className=" font-mono	 text-xl grid place-items-center">
           No Roadmap, no utility, just enjoy!
         </p>
-        <p>
+        <div className="flex justify-center items-center ">
           <Image
             src="/opensea_icon.png"
             alt=""
             width={48}
             height={48}
           />
-          <Image
-            src="/twitter_icon.png"
-            alt=""
-            width={48}
-            height={48}
-          />
-        </p>
+          <div className="flex justify-center items-center pl-5">
+            <Image
+              src="/twitter_icon.png"
+              alt=""
+              width={48}
+              height={48}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
