@@ -12,11 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThirdwebProvider desiredChainId={activeChainId}>
       <Head>
         <title>Checks Buddies</title>
-        <link
-          rel="shortcut icon"
-          href="fav-24.png"
-          type="image/png"
-        />
 
         <meta
           name="viewport"

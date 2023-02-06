@@ -336,7 +336,7 @@ const Home: NextPage = () => {
           <a href="http://">
             <Image
               src="/opensea_icon.png"
-              alt=""
+              alt="opensea_icon"
               width={48}
               height={48}
             />
@@ -345,7 +345,7 @@ const Home: NextPage = () => {
             <a href="http://">
               <Image
                 src="/twitter_icon.png"
-                alt=""
+                alt="twitter_icon"
                 width={48}
                 height={48}
               />
