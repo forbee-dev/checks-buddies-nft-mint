@@ -333,19 +333,23 @@ const Home: NextPage = () => {
           No Roadmap, no utility, just enjoy!
         </p>
         <div className="flex justify-center items-center ">
-          <Image
-            src="/opensea_icon.png"
-            alt=""
-            width={48}
-            height={48}
-          />
-          <div className="flex justify-center items-center pl-5">
+          <a href="http://">
             <Image
-              src="/twitter_icon.png"
+              src="/opensea_icon.png"
               alt=""
               width={48}
               height={48}
             />
+          </a>
+          <div className="flex justify-center items-center pl-5">
+            <a href="http://">
+              <Image
+                src="/twitter_icon.png"
+                alt=""
+                width={48}
+                height={48}
+              />
+            </a>
           </div>
         </div>
       </div>

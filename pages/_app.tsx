@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Checks Buddies</title>
         <link
-          rel="icon"
+          rel="shortcut icon"
+          href="fav-24.png"
           type="image/png"
-          sizes="16x16"
-          href="/fav-24.png"
-        ></link>
+        />
+
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
