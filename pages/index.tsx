@@ -333,7 +333,7 @@ const Home: NextPage = () => {
         <p className=" font-mono	 text-xl grid place-items-center">
           No Roadmap, no utility, just enjoy!
         </p>
-        <div className="flex justify-center items-center ">
+        {/*<div className="flex justify-center items-center ">
           <Link href="http://www.opensea.io">
             <Image
               src="/opensea_icon.png"
@@ -353,7 +353,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </div>
-      </div>
+                      </div>*/}
     </div>
   );
 };
