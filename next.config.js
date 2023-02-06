@@ -3,7 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = {
-  useFileSystemPublicRoutes: false,
-  nextConfig,
-};
+module.exports = nextConfig;
