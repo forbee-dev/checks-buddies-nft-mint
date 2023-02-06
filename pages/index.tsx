@@ -232,13 +232,13 @@ const Home: NextPage = () => {
         ) : (
           <>
             <div className="">
-              {/* Image Preview of NFTs */}
+              {/* Image Preview of NFTs 
               <Image
                 src="/checks-buddie.gif"
                 alt=""
                 width={400}
                 height={400}
-              />
+              />*/}
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
