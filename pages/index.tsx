@@ -218,11 +218,11 @@ const Home: NextPage = () => {
         </h1>
         <p className=" font-mono text-xl grid place-items-center pt-10">
           This may or may not be a PFP Collection inspired by the great work of
-          Jack Butcher on "Checks - VV Edition"
+          Jack Butcher on &quot;Checks - VV Edition&quot;
         </p>
         <p className=" font-mono text-xl grid place-items-center pt-10 pb-10 text-center">
           <span className="text-red-600">Edition Size:</span> 16027 - like the
-          original "Checks - VV Edition"
+          original &quot;Checks - VV Edition&quot;
         </p>
       </nav>
       <div className={styles.mintInfoContainer}>
