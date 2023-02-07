@@ -21,6 +21,8 @@ import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
 import gif from "../public/checks-buddie.gif";
+import twitter from "../public/twitter_icon.png";
+import opensea from "../public/opensea_icon.png";
 
 // Put Your NFT Drop Contract address from the dashboard here
 const myNftDropContractAddress = "0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F";
@@ -237,7 +239,7 @@ const Home: NextPage = () => {
               {/* Image Preview of NFTs */}
               <Image
                 src={gif}
-                alt=""
+                alt="gif"
                 width={400}
                 height={400}
               />
@@ -321,9 +323,9 @@ const Home: NextPage = () => {
                     )}
                   </div>{" "}
                   <p className="font-mono text-xs">
-                    {/*<Link href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
+                    <Link href="http://etherscan.io/address/0x36fFaF18a16B2c461580Fe473fCe455AB9C98b8F">
                       Smart Contract
-                      </Link>*/}
+                    </Link>
                   </p>
                 </>
               )}
@@ -335,27 +337,26 @@ const Home: NextPage = () => {
         <p className=" font-mono	 text-xl grid place-items-center">
           No Roadmap, no utility, just enjoy!
         </p>
-        {/*<div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center ">
           <Link href="http://www.opensea.io">
             <Image
-              src="/opensea_icon.png"
+              src={opensea}
               alt="opensea_icon"
               width={48}
               height={48}
             />
           </Link>
-          </div>
-          <div className="flex justify-center items-center pl-5">
-            <Link href="http://www.twitter.com">
-              <Image
-                src="/twitter_icon.png"
-                alt="twitter_icon"
-                width={48}
-                height={48}
-              />
-            </Link>
-                      </div>
-        </div>*/}
+        </div>
+        <div className="flex justify-center items-center pl-5">
+          <Link href="http://www.twitter.com">
+            <Image
+              src={twitter}
+              alt="twitter_icon"
+              width={48}
+              height={48}
+            />
+          </Link>
+        </div>
       </div>
     </div>
   );
