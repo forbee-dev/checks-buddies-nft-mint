@@ -335,7 +335,7 @@ const Home: NextPage = () => {
       </div>
       <div className="pt-8">
         <p className=" font-mono	 text-xl grid place-items-center">
-          No Roadmap, no utility, just enjoy!
+          This PFP may or may not be notable! Enjoy!
         </p>
         <div className="flex justify-center items-center ">
           <Link href="https://opensea.io/collection/checks-buddies">
