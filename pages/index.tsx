@@ -346,16 +346,17 @@ const Home: NextPage = () => {
               height={48}
             />
           </Link>
-        </div>
-        <div className="flex justify-center items-center pl-5">
-          <Link href="http://www.twitter.com">
-            <Image
-              src={twitter}
-              alt="twitter_icon"
-              width={48}
-              height={48}
-            />
-          </Link>
+
+          <div className="flex justify-center items-center pl-5">
+            <Link href="http://www.twitter.com">
+              <Image
+                src={twitter}
+                alt="twitter_icon"
+                width={48}
+                height={48}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
