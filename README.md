@@ -8,7 +8,7 @@ Was made using the ThirdWeb SDK
 
 ## Tech Stack
 
-**Client:** ThirdWeb SDK, NextJS, TailwindCSS with DaisyUI
+**Client:** ThirdWeb SDK, NextJS, TailwindCSS
 
 
 ## 🚀 About Me
